@@ -30,8 +30,8 @@ ENV model_path="/flask-ai/data/mobilenet_ssd_v2_coco_quant_postprocess_edgetpu.t
     top_k="3"
 
 # Add flow control varibles
-ENV return_image='True' \
-    restrict_cores='True'
+ENV return_image='False' \
+    restrict_cores='False'
 
 # Add bebug variables (optional)
 # ENV debug_image_path="/flask-ai" 
