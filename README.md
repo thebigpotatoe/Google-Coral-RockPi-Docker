@@ -71,7 +71,7 @@ The only downside to this image is it must be run in privileged mode to allow th
 
 Upon successful analysis of an image, the following message structure will be returned:
 
-``` json
+``` javascript
 {
     "objects": [                                // A list of found objects
         {
