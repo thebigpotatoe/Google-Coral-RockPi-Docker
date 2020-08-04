@@ -1,4 +1,4 @@
-# Based on alpine python image
+# Based on python image
 FROM python:3.6-slim-buster
 
 # Install Curl
