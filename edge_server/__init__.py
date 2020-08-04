@@ -1,0 +1,1 @@
+from .edge_app import app 
