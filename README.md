@@ -54,7 +54,7 @@ The container utilises several environmental variables to customise how the cont
 
 ENV Variable | Description | Input Type | Default Value
 ------------ | ----------- | ---------- | -------------
-model_path | The path to the model within the container | String | data/mobilenet_ssd_v2_coco_quant_postprocess_edgetpu.tflite
+model_path | The path to the model within the container | String | data/mobilenet _ssd_v2_coco_ quant_postprocess_ edgetpu.tflite
 labels_path | The path to the labels file within the container | String | data/coco_labels.txt
 threshold | The threshold value to define valid objects | Float | 0.6
 top_k | The max number of objects to list per image | Int | 5
