@@ -1,1 +1,1 @@
-docker build . < Dockerfile --tag flask-ai-local
+docker build . < Dockerfile --tag google-coral-rockpi-docker-local

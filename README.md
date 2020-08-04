@@ -1,7 +1,5 @@
 # Google-Coral-RockPi-Docker
 
-<!-- A docker image for the RockPi 4B using the google coral AI PCIe board wrapping the mobilenet SSD object detection model trained on the COCO dataset. -->
-
 The motivation behind this image was to produce a local server that can analyse an image for known objects very quickly in applications such as home automation and security. It's not perfect, so any feedback, issues, or pull requests are most welcome :smile:
 
 The main application is built with Flask which runs using gunicorn as the WSGI server. The default port for the application is `1890` but can be changed in the Dockerfile with ease as it will automatically update all valid references to the port.

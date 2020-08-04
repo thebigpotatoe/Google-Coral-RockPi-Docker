@@ -1,1 +1,1 @@
-docker build . < Dockerfile --tag flask-ai
+docker build . < Dockerfile --tag thebigpotatoe/google-coral-rockpi-docker
